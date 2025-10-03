@@ -1,0 +1,43 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Colorful rainbow landscape background -->
+  <defs>
+    <linearGradient id="skyBlue" x1="0" y1="0" x2="0" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="400" height="300" fill="url(#skyBlue)"/>
+  
+  <!-- Rainbow stripes -->
+  <path d="M -50 80 Q 100 40 250 80 Q 400 120 450 80 L 450 120 Q 400 160 250 120 Q 100 80 -50 120 Z" fill="#FF6B9D" opacity="0.8"/>
+  <path d="M -50 100 Q 100 60 250 100 Q 400 140 450 100 L 450 140 Q 400 180 250 140 Q 100 100 -50 140 Z" fill="#FFD93D" opacity="0.8"/>
+  <path d="M -50 120 Q 100 80 250 120 Q 400 160 450 120 L 450 160 Q 400 200 250 160 Q 100 120 -50 160 Z" fill="#95E1D3" opacity="0.8"/>
+  <path d="M -50 140 Q 100 100 250 140 Q 400 180 450 140 L 450 180 Q 400 220 250 180 Q 100 140 -50 180 Z" fill="#B4A0E5" opacity="0.8"/>
+  
+  <!-- Mountain shapes (white/light) -->
+  <path d="M 50 200 L 120 140 L 190 200 Z" fill="white" opacity="0.9"/>
+  <path d="M 180 200 L 240 160 L 300 200 Z" fill="white" opacity="0.9"/>
+  <path d="M 280 200 L 340 150 L 400 200 Z" fill="white" opacity="0.9"/>
+  
+  <!-- Purple accent at bottom -->
+  <ellipse cx="100" cy="230" rx="80" ry="40" fill="#DDA0DD" opacity="0.6"/>
+  <ellipse cx="300" cy="240" rx="90" ry="35" fill="#E6B8E6" opacity="0.6"/>
+  
+  <!-- Green rolling hills -->
+  <path d="M 0 210 Q 100 190 200 210 T 400 210 L 400 300 L 0 300 Z" fill="#90EE90" opacity="0.7"/>
+  <path d="M 0 230 Q 150 220 300 240 T 400 230 L 400 300 L 0 300 Z" fill="#98D98E" opacity="0.8"/>
+  
+  <!-- Flowers -->
+  <circle cx="60" cy="245" r="8" fill="white"/>
+  <circle cx="60" cy="245" r="4" fill="#FFD93D"/>
+  <circle cx="340" cy="250" r="8" fill="white"/>
+  <circle cx="340" cy="250" r="4" fill="#FFD93D"/>
+  
+  <!-- Bubbles/particles -->
+  <circle cx="120" cy="100" r="8" fill="white" opacity="0.3"/>
+  <circle cx="280" cy="80" r="6" fill="white" opacity="0.25"/>
+  <circle cx="200" cy="60" r="4" fill="white" opacity="0.3"/>
+  <circle cx="350" cy="110" r="5" fill="white" opacity="0.2"/>
+</svg>

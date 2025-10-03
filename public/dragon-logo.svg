@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dragonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C084FC;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A78BFA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#dragonGradient)"/>
+  
+  <!-- Dragon/Serpent Shape -->
+  <path d="M 20 18 Q 18 14 22 12 Q 26 10 28 14 L 30 18 Q 32 10 38 8 Q 44 6 48 12 Q 52 18 50 26 Q 48 34 42 38 Q 36 42 32 44 Q 28 46 24 48 Q 20 50 18 52 Q 16 54 14 52 Q 12 50 14 46 Q 16 42 20 40 Q 24 38 28 34 Q 32 30 32 26 Q 32 22 28 20 Q 24 18 20 18 Z" fill="white" opacity="0.95"/>
+  
+  <!-- Dragon Head Details -->
+  <ellipse cx="23" cy="16" rx="2" ry="3" fill="white" opacity="0.6"/>
+  <circle cx="24" cy="15" r="1.5" fill="#8B5CF6"/>
+  
+  <!-- Highlight/Shine on body -->
+  <ellipse cx="28" cy="24" rx="4" ry="6" fill="white" opacity="0.3"/>
+  
+  <!-- Dragon horn/spike -->
+  <path d="M 26 10 L 28 6 L 30 10 Z" fill="url(#dragonGradient)" opacity="0.8"/>
+</svg>
